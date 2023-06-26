@@ -678,12 +678,25 @@ border: 1px solid #FF5300;
 .ptb_map{
     padding-bottom: 60px;
 }
+.send_m {
+    border: unset;
+    background: #FFF;
+    box-shadow: 0px 1px 10px 0px rgba(0, 0, 0, 0.10);
+}
 .col_12 {
     width: 100%;
     padding-left: 12px;
     padding-right: 12px;
 }
-
+textarea{
+    width: 100%;
+}
+.send_xsm{
+    font-size: 20px;
+}
+.inp1{
+    width: 100%;
+}
 .boxs {
     width: 470px;
     margin-bottom: 36px;
@@ -775,23 +788,16 @@ border: 1px solid #FF5300;
 }
 
 .inp1s {
-    width: 290px;
+    width: 100%;
     font-size: 20px;
 }
 
 .mls_inp {
-    margin-left: 10px;
     margin-bottom: 18px;
 }
-
-.inp3_s {
-    width: 300px;
-    height: 120px;
-    text-align: start;
-    font-size: 20px;
-    margin-left: 10px;
+.ml_inp{
+    margin-left: 0;
 }
-
 .mapimg {
     min-width: 400px;
 }
@@ -909,13 +915,18 @@ border: 1px solid #FF5300;
         margin-bottom: 40px;
     }
 
-    .inp1s {
-        width: 260px;
-        font-size: 20px;
-    }
-
+.ml_inp {
+    margin-left: 12px;
+}
+textarea {
+    width: 94%;
+}
+.inp1s {
+    width: 45%;
+    font-size: 20px;
+}
     .mls_inp {
-        margin-left: 10px;
+        margin-left: 0px;
         margin-bottom: 18px;
     }
 
@@ -996,7 +1007,7 @@ border: 1px solid #FF5300;
     }
 
     .inp1s {
-        width: 350px;
+        width: 45%;
         font-size: 20px;
     }
 
@@ -1021,6 +1032,9 @@ border: 1px solid #FF5300;
              top: 60%;
              right: -4%;
          }
+                 textarea {
+                     width: 92%;
+                 }
 }
 
 @media (min-width:992px) {
@@ -1029,11 +1043,17 @@ border: 1px solid #FF5300;
         padding-left: 12px;
         padding-right: 12px;
     }
-
+ 
+  textarea {
+      width: 98%;
+  }
     .d-lg-none {
         display: none;
     }
-
+ .inp1s {
+     width: 48%;
+     font-size: 16px;
+ }
     .card {
         width: 220px;
     }
@@ -1072,23 +1092,11 @@ border: 1px solid #FF5300;
     .mt_boxs3 {
         margin-top: 0;
     }
-
-    .inp1s {
-        width: 220px;
-        font-size: 20px;
-    }
-
     .mls_inp {
         margin-left: 0;
         margin-bottom: 18px;
     }
 
-    .inp3_s {
-        width: 450px;
-        height: 120px;
-        font-size: 20px;
-        margin-left: 0;
-    }
 .mt_lg{
     margin-top: 0;
 }
@@ -1110,6 +1118,15 @@ border: 1px solid #FF5300;
          }
          .imgcall{
             margin-top: 70px;
+         }
+         .inp1{
+            font-size: 16px;
+            
+         }
+         .send_m{
+            border: unset;
+            background: #FFF;
+                box-shadow: 0px 1px 10px 0px rgba(0, 0, 0, 0.10);
          }
 }
 
